@@ -5,13 +5,16 @@ body {
   align-items: center;
 }
 
-.home > a, img {
+.home a, .home img {
   width: 100vw;
-  height: 100vh;
 }
 
 .desktop {
   display: block;
+}
+
+.desktop a, .desktop img {
+  height: 100vh;
 }
 
 .mobile {
