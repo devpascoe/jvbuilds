@@ -5,6 +5,24 @@ body {
   align-items: center;
 }
 
-a, img {
+.home {
   width: 100%;
+}
+
+.home > a, img {
+  width: 100%;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+  }
 }
