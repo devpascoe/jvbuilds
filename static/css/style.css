@@ -1,0 +1,10 @@
+body {
+  background-color: #262424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a, img {
+  width: 100%;
+}
