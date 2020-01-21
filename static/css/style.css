@@ -6,15 +6,29 @@ body {
 }
 
 .home a, .home img {
-  width: 100vw;
+  width: 100%;
+  display: block;
+}
+
+.feature {
+  width: 100%;
+  display: block;
+}
+
+.feature:hover path {
+  fill: #FFF36E;
+  cursor: pointer;
+}
+
+.home hr {
+  border: 1px solid #dedede;
+  opacity: 0.7;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .desktop {
   display: block;
-}
-
-.desktop a, .desktop img {
-  height: 100vh;
 }
 
 .mobile {
